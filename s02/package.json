@@ -1,0 +1,19 @@
+{
+  "name": "s02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "util.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}

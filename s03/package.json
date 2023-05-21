@@ -1,0 +1,25 @@
+{
+  "name": "s03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "specifictest": "mocha -g"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
